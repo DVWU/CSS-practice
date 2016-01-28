@@ -1,0 +1,76 @@
+#first-div {
+  color: #59943c;
+}
+#second-div{
+  color: #a03e20
+}
+#third-div{
+  color: #00e5e5
+}
+/* Class selector*/
+.text-center{
+  text-align: center;
+}
+/*element*/
+h1{
+  text-decoration: underline;
+}
+/*try~~~*/
+.four-legs{
+  color:red;
+}
+/*選擇兩個class(or) can-fly+ant*/
+.can-fly,
+.bug{
+  color:green;
+}
+
+/*選擇兩個class (AND)*/
+.animal.run {
+  text-decoration: underline;
+}
+/* 組合不同的選擇器*/
+div.animal {
+  background-color: yellow;
+}
+/*多層次練習 ----只有掛在DIV 下的IMG 才會生效---寬度/顏色*/
+div img{
+  border:5px solid red;
+}
+/* 子代選擇器*/
+div>img{
+  width: 900px;
+}
+
+a {
+  color:#ccc;
+}
+
+a:hover {
+  color:black;
+}
+
+/* 按鈕調整器*/
+
+.button{
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  /* padding 是指內邊距
+   每一個元素都是一個box */
+  background-color: white;
+  text-decoration: none;
+  border-radius: 150px;
+  margin:50px;
+  display: inline-block;
+}
+.button:hover {
+  color:black;
+  border:1px solid black;
+  padding: 20px;
+  background-color: #eee;
+  text-decoration: none;
+  border-radius: 150px;
+  margin:50px;
+  display: inline-block;
+}
